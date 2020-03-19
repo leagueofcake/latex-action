@@ -1,8 +1,6 @@
-FROM xucheng/texlive-full:latest
+FROM leagueofcake/texlive-fontawesome:latest
 
 COPY \
-  LICENSE \
-  README.md \
   entrypoint.sh \
   /root/
 
